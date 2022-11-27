@@ -1,0 +1,13 @@
+[Unit]
+Description=BSProxy Service
+Documentation=https://github.com/yinshaoze/BSProxy
+After=network.target nss-lookup.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/BSProxy
+KillSignal=SIGTERM
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
