@@ -29,12 +29,6 @@ func generateKickMessage(s *config.ConfigProxyService, name packet.String) chat.
 				Text: fmt.Sprintf("Timestamp: %d | Player Name: %s | Service: %s\n",
 					time.Now().UnixMilli(), name, s.Name),
 			},
-			{Text: "GitHub: "},
-			{
-				Color: chat.Aqua, UnderLined: true,
-				Text:       "https://github.com/yinshaoze/BSProxy",
-				ClickEvent: chat.OpenURL("https://github.com/yinshaoze/BSProxy"),
-			},
 		},
 	}
 }
