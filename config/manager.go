@@ -64,7 +64,7 @@ func generateDefaultConfig() {
 						EnableMaxLimit: false,
 					},
 					MotdFavicon:     "{DEFAULT_MOTD}",
-					MotdDescription: "§r§c§lProxy for §6§nhypixel.net:25565§r\\n§r§9QQ:3325395619",
+					MotdDescription: "§r§c§lProxy for §6§nhypixel.net:25565§r\n§r§9QQ:3325395619",
 				},
 			},
 		},
